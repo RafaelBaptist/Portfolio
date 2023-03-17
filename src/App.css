@@ -1,0 +1,259 @@
+@font-face{
+  font-family: HomeFontB;
+  src: url(./assets/font/static/RobotoMono-Bold.ttf);
+  font-weight: 700 ;
+
+
+}
+
+a.active.Nav-link.nav-link{
+  color: #f2295f;
+  font-family: HomeFontB;
+}
+
+.Nav-link.nav-link:hover{
+  color: #FF8CB3;
+  font-family: HomeFontB;
+}
+a:link{
+  color: white;
+  font-family: HomeFontB;
+  transition: all 0.3s;
+}
+a:hover{
+  color: white;
+  font-family: HomeFontB;
+}
+a:visited{
+  color: white;
+  font-family: HomeFontB;
+}
+a:active{
+  color: white;
+  font-family: HomeFontB;
+}
+
+@font-face{
+  font-family: HomeFontM;
+  src: url(./assets/font/static/RobotoMono-Medium.ttf);
+  font-weight: 500;
+}
+@font-face{
+  font-family: HomeFontT;
+  src: url(./assets/font/static/RobotoMono-Thin.ttf);
+  font-weight: 400;
+}
+
+h1{
+ text-align: center; 
+ font-family: HomeFont;
+}
+/* Default CSS */
+/* .main-container {
+  padding: 15px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+font-family: HomeFontB;
+} */
+
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.Nav-link{
+
+  font-family: HomeFont;
+  
+}
+
+#basic-Navbar-nav{
+  color: white;
+  font-family: HomeFontB;
+
+}
+
+html{
+  scroll-behavior: smooth;
+ scroll-padding-top: 75px;
+}
+body{
+ font-weight: 400;
+ overflow-x: hidden;
+ position: relative;
+ background-color: #121212 !important;
+ color: #fff !important;
+ 
+ font-family: 'RobotoMono', sans-serif !important ;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  color: white;
+
+}
+.App {
+  text-align: center;
+    background-color: #121212 !important;
+  
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.vvd{
+  background-color:rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: HomeFontM;
+  transition: 0.4s;
+ border-color: white;
+}
+.vvd:hover{
+  background-color:#f2295f;
+  border-radius: 5px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: HomeFontM;
+transition: 0.4s;
+ border: none;
+ -webkit-box-shadow: 23px 9px 47px 2px rgba(255,255,255,0.12);
+-moz-box-shadow: 23px 9px 47px 2px rgba(255,255,255,0.12);
+box-shadow: 23px 9px 47px 2px rgba(255,255,255,0.12);
+
+}
+
+.vddtt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+nav.navbar{
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32 ease-in-out;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+  box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+}
+.bg-main{
+  background-color: rgba(0, 0, 0, 0.8);
+  
+  }
+   
+
+nav.navbar.scrolled{
+  padding: 0px 0;
+  background-color: #121212;
+}
+
+
+.icon1:hover{
+transform: rotate(360deg);
+transition: 0.9s;
+}
+.icon2:hover{
+  transform: rotate(360deg);
+  transition: 0.9s;
+  }
+
+  .icon3:hover{
+    transform: rotate(360deg);
+    transition: 0.9s;
+    }
+    
+
+.social-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+/* 
+ABAIXAR A IMAGEM E O TEXTO */
+.align-items-center{
+
+  padding-top: 100px;
+}
+
+.vvdbanner{
+
+  background-color:rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: HomeFontM;
+  transition: 0.4s;
+  border: none;
+}
+.vvdbanner:hover{
+
+  background-color:#f2295f;
+  border-radius: 5px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: HomeFontM;
+  transition: 0.4s;
+  border: none;
+}
