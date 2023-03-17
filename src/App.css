@@ -248,7 +248,7 @@ ABAIXAR A IMAGEM E O TEXTO */
 .vvdbanner:hover{
 
   background-color:#f2295f;
-  border-radius: 5px;
+
   padding: 0;
   width: 200px;
   height: 50px;
@@ -256,4 +256,5 @@ ABAIXAR A IMAGEM E O TEXTO */
   font-family: HomeFontM;
   transition: 0.4s;
   border: none;
+
 }
