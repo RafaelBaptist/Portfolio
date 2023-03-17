@@ -47,9 +47,9 @@ return (
         <span className="Navbar-text">
             <div className="social-icon">
                
-              <section className="icon1">  <a href="#"><img src={navIcon1} alt="" /></a> </section>
-              <section className="icon2"><a href="#"><img src={navIcon2} alt="" /></a></section>
-              <section className="icon3"> <a href="#"><img src={navIcon3} alt="" /></a></section>
+              <section className="icon1">  <a href="https://github.com/RafaelBaptist"><img src={navIcon1} alt="" /></a> </section>
+              <section className="icon2"><a href="https://www.instagram.com/kvshsan/"><img src={navIcon2} alt="" /></a></section>
+              <section className="icon3"> <a href="https://www.linkedin.com/in/rafael-de-souza-baptista-4a0baa209/"><img src={navIcon3} alt="" /></a></section>
 
            
                 </div>
