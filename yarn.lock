@@ -1239,6 +1239,11 @@
   "resolved" "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz"
   "version" "1.4.0"
 
+"@emailjs/browser@^3.10.0":
+  "integrity" "sha512-pregUOBkSjjctQoAgn8DcSaeY4ypHjXAJEzWlJysM3RkQXw1ulavfHva3YYeAkxfJ7qbIhpyvRmhyQlgNG4GVg=="
+  "resolved" "https://registry.npmjs.org/@emailjs/browser/-/browser-3.10.0.tgz"
+  "version" "3.10.0"
+
 "@jest/expect-utils@^29.5.0":
   "integrity" "sha512-fmKzsidoXQT2KwnrwE0SQq3uj8Z763vzR8LnLBwC2qYWEFpjX8daRsk6rHUM1QvNlEW/UJXNXm59ztmJJWs2Mg=="
   "resolved" "https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.5.0.tgz"
@@ -3390,6 +3395,14 @@
   "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
   "version" "1.0.2"
 
+"cors@^2.8.5":
+  "integrity" "sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g=="
+  "resolved" "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz"
+  "version" "2.8.5"
+  dependencies:
+    "object-assign" "^4"
+    "vary" "^1"
+
 "cosmiconfig@^5.0.0", "cosmiconfig@^5.0.5", "cosmiconfig@^5.0.6":
   "integrity" "sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA=="
   "resolved" "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-5.2.1.tgz"
@@ -3713,6 +3726,13 @@
     "abab" "^2.0.6"
     "whatwg-mimetype" "^3.0.0"
     "whatwg-url" "^11.0.0"
+
+"debug@^2.1.3":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
+  "version" "2.6.9"
+  dependencies:
+    "ms" "2.0.0"
 
 "debug@^2.2.0":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
@@ -4675,7 +4695,7 @@
     "jest-message-util" "^29.5.0"
     "jest-util" "^29.5.0"
 
-"express@^4.16.2":
+"express@^4.16.2", "express@^4.18.2":
   "integrity" "sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
   "version" "4.18.2"
@@ -7041,6 +7061,13 @@
   "resolved" "https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz"
   "version" "0.0.1"
 
+"jsonp@^0.2.1":
+  "integrity" "sha512-pfog5gdDxPdV4eP7Kg87M8/bHgshlZ5pybl+yKxAnCZ5O7lCIn7Ixydj03wOlnDQesky2BPyA91SQ+5Y/mNwzw=="
+  "resolved" "https://registry.npmjs.org/jsonp/-/jsonp-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "debug" "^2.1.3"
+
 "jsprim@^1.2.2":
   "integrity" "sha512-P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw=="
   "resolved" "https://registry.npmjs.org/jsprim/-/jsprim-1.4.2.tgz"
@@ -7834,6 +7861,11 @@
   "resolved" "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz"
   "version" "2.0.10"
 
+"nodemailer@^6.9.1":
+  "integrity" "sha512-qHw7dOiU5UKNnQpXktdgQ1d3OFgRAekuvbJLcdG5dnEo/GtcTHRYM7+UfJARdOFU9WUQO8OiIamgWPmiSFHYAA=="
+  "resolved" "https://registry.npmjs.org/nodemailer/-/nodemailer-6.9.1.tgz"
+  "version" "6.9.1"
+
 "normalize-package-data@^2.3.2":
   "integrity" "sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA=="
   "resolved" "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
@@ -7914,7 +7946,7 @@
   "resolved" "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz"
   "version" "0.9.0"
 
-"object-assign@^4.0.1", "object-assign@^4.1.0", "object-assign@^4.1.1", "object-assign@4.1.1":
+"object-assign@^4", "object-assign@^4.0.1", "object-assign@^4.1.0", "object-assign@^4.1.1", "object-assign@4.1.1":
   "integrity" "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg=="
   "resolved" "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
   "version" "4.1.1"
@@ -9203,7 +9235,7 @@
     "react-is" "^16.3.2"
     "warning" "^4.0.0"
 
-"prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
+"prop-types@^15.5.10", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -9477,6 +9509,20 @@
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
 
+"react-mailchimp-subscribe@^2.1.3":
+  "integrity" "sha512-ZRuPZMnX/9pHQLnAQavsgB5xIF+gNqjNCCq1vvTs23cn+93W2oOp17qjg3LpDBEt1HJi6IHXMwpKXn0taY8FHw=="
+  "resolved" "https://registry.npmjs.org/react-mailchimp-subscribe/-/react-mailchimp-subscribe-2.1.3.tgz"
+  "version" "2.1.3"
+  dependencies:
+    "jsonp" "^0.2.1"
+    "prop-types" "^15.5.10"
+    "to-querystring" "^1.0.4"
+
+"react-multi-carousel@^2.8.2":
+  "integrity" "sha512-M9Y7DfAp8bA/r6yexttU6RLA7uyppje4c0ELRuCHZWswH+u7nr0uVP6qHNPjc4XGOEY1MYFOb5nBg7JvoKutuQ=="
+  "resolved" "https://registry.npmjs.org/react-multi-carousel/-/react-multi-carousel-2.8.2.tgz"
+  "version" "2.8.2"
+
 "react-scripts@^2.1.3":
   "integrity" "sha512-JASD0QVVgSVleVhA9TeA+UBx+shq887hm/L+09qjZLrqIUvJZHZU+oOnhMFGot02Yop+LKfkvf9KSsTNlu/Rwg=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-2.1.3.tgz"
@@ -9542,7 +9588,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>=0.14.0", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8.0", "react@>=16.8.6":
+"react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>=0.14.0", "react@>=15", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8.0", "react@>=16.8.6":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -10889,6 +10935,11 @@
   dependencies:
     "kind-of" "^3.0.2"
 
+"to-querystring@^1.0.4":
+  "integrity" "sha512-V4qvlRNOltdNxvWGuDS71sNMH6FtFNx3GP967WT8gb6xzi4thJTUfogIln9hvz1ZmWcm9hY35LklMexo0YVHdg=="
+  "resolved" "https://registry.npmjs.org/to-querystring/-/to-querystring-1.2.0.tgz"
+  "version" "1.2.0"
+
 "to-regex-range@^2.1.0":
   "integrity" "sha512-ZZWNfCjUokXXDGXFpZehJIkZqq91BcULFq/Pi7M5i4JnxXdhMKAK682z8bCW3o8Hj1wuuzoKcW3DfVzaP6VuNg=="
   "resolved" "https://registry.npmjs.org/to-regex-range/-/to-regex-range-2.1.1.tgz"
@@ -11306,7 +11357,7 @@
     "spdx-correct" "^3.0.0"
     "spdx-expression-parse" "^3.0.0"
 
-"vary@~1.1.2":
+"vary@^1", "vary@~1.1.2":
   "integrity" "sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg=="
   "resolved" "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
