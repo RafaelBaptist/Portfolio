@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/wallpaperflare-cropped.802f1d48.jpg"
   },
   {
+    "revision": "0339b745f10bb01da181af1cdc33c361",
+    "url": "/Portfolio/static/media/RobotoMono-Bold.0339b745.ttf"
+  },
+  {
     "revision": "b090e3202375adb631519fab6bf121c2",
     "url": "/Portfolio/static/media/RobotoMono-Medium.b090e320.ttf"
   },
@@ -80,20 +84,16 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/RobotoMono-Thin.d1a7b45f.ttf"
   },
   {
-    "revision": "0339b745f10bb01da181af1cdc33c361",
-    "url": "/Portfolio/static/media/RobotoMono-Bold.0339b745.ttf"
-  },
-  {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/Portfolio/static/media/revicons.04eb8fc5.woff"
   },
   {
-    "revision": "17629a5dfe0d3c3946cf401e1895f091",
-    "url": "/Portfolio/static/media/revicons.17629a5d.ttf"
-  },
-  {
     "revision": "2feb69ccb596730c72920c6ba3e37ef8",
     "url": "/Portfolio/static/media/revicons.2feb69cc.eot"
+  },
+  {
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/Portfolio/static/media/revicons.17629a5d.ttf"
   },
   {
     "revision": "8dddeaa9417c278c5b8dd1a6f1ab7c75",
