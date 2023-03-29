@@ -1,7 +1,7 @@
 {
-  "main.css": "/Portfolio/static/css/main.7e5156ae.chunk.css",
-  "main.js": "/Portfolio/static/js/main.1e33c206.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.1e33c206.chunk.js.map",
+  "main.css": "/Portfolio/static/css/main.1df5a84d.chunk.css",
+  "main.js": "/Portfolio/static/js/main.70db39d2.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.70db39d2.chunk.js.map",
   "static/js/1.89f8c124.chunk.js": "/Portfolio/static/js/1.89f8c124.chunk.js",
   "static/js/1.89f8c124.chunk.js.map": "/Portfolio/static/js/1.89f8c124.chunk.js.map",
   "static/css/2.c70d7433.chunk.css": "/Portfolio/static/css/2.c70d7433.chunk.css",
@@ -20,11 +20,11 @@
   "static/media/netfliz.png": "/Portfolio/static/media/netfliz.2399e82c.png",
   "static/media/eu4direita.png": "/Portfolio/static/media/eu4direita.715b8948.png",
   "static/media/euia2.png": "/Portfolio/static/media/euia2.3ed22ead.png",
-  "static/media/App.css": "/Portfolio/static/media/RobotoMono-Thin.d1a7b45f.ttf",
-  "static/media/styles.css": "/Portfolio/static/media/revicons.17629a5d.ttf",
+  "static/media/App.css": "/Portfolio/static/media/RobotoMono-Medium.b090e320.ttf",
+  "static/media/styles.css": "/Portfolio/static/media/revicons.2feb69cc.eot",
+  "static/css/main.1df5a84d.chunk.css.map": "/Portfolio/static/css/main.1df5a84d.chunk.css.map",
   "static/css/2.c70d7433.chunk.css.map": "/Portfolio/static/css/2.c70d7433.chunk.css.map",
-  "static/css/main.7e5156ae.chunk.css.map": "/Portfolio/static/css/main.7e5156ae.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.13127c52c700de10b98c5d29bba426b0.js": "/Portfolio/precache-manifest.13127c52c700de10b98c5d29bba426b0.js",
+  "precache-manifest.dd56c6d6bd79147d522d1fbe055c9b71.js": "/Portfolio/precache-manifest.dd56c6d6bd79147d522d1fbe055c9b71.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
