@@ -62,7 +62,7 @@ export const Banner = () => {
                 <span className="tagline">{text}</span>
               </h1>
               <p>
-                My name is Rafael de Souza Baptistai started programming 2 years
+                My name is Rafael de Souza Baptista started programming 2 years
                 ago, and i am looking for more and more experience and jobs, i
                 would like to evolve more and more as a programmer, here you can
                 contact me, to make a website or make a proposal
