@@ -452,6 +452,9 @@ font-weight: 700;
   justify-content: center;
 }
 
+.Navbar-togller-icon{
+  background: rgba(17, 17, 17, 0.8);
+}
 
 .projectImage{
   width: 300px;
