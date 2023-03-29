@@ -886,6 +886,46 @@ box-shadow: 23px 9px 47px 2px rgba(255,255,255,0.12);
       display: flex;
       align-items: flex-end;
     
+            .contactImg{
+     opacity: 0;
+     margin: 0;
+     padding: 0;
+     height: 0;
+}
+
+
+ .container{
+      width: 100%;
+      display: flex;
+      background: black;
+    }
+    #basic-Navbar-nav{
+      color: white;
+      font-family: HomeFontB;
+    background: black;
+    width: 10000px;
+    }
       
+      .navCenter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+ 
       }
+  nav.navbar{
+      background: black;
+      height:80px;
+      padding: 18px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 9999;
+      transition: 0.32 ease-in-out;
+      -webkit-box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+      -moz-box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+      box-shadow: 0px 5px 15px 0px rgba(255,140,179,0.2);
+    }
+      }
+    
+    
     }
